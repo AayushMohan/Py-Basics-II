@@ -21,9 +21,16 @@
 
 # Short Circuiting
 
-is_Friend = True
+# is_Friend = True
 
-is_User = False
+# is_User = False
 
-if is_Friend or is_User:
-  print('best friends forever')
+# if is_Friend or is_User:
+#   print('best friends forever')
+
+# Logical Operators
+# print(0 != 1)
+
+####### Logical Operators ########
+# < > == <= >= !=
+# and or not

@@ -37,20 +37,54 @@
 
 ### EXERCISE ON LOGICAL OPERATOR ###
 
-is_magician = True
-is_expert = True
+# is_magician = True
+# is_expert = True
 
-#check if magician AND expert: "You are a master magician"
+# #check if magician AND expert: "You are a master magician"
 
-#check if magician but not expert: "At least you are getting there"
+# #check if magician but not expert: "At least you are getting there"
 
-# if you're  not a magician: "You need magic powers"
+# # if you're  not a magician: "You need magic powers"
 
-if is_magician and is_expert:
-  print("You are a master magician")
+# if is_magician and is_expert:
+#   print("You are a master magician")
 
-elif is_magician and not is_expert:
-  print("At least you are getting there")
+# elif is_magician and not is_expert:
+#   print("At least you are getting there")
 
-elif not is_magician:
-  print("You need magic powers")
+# elif not is_magician:
+#   print("You need magic powers")
+
+##### is vs == #####
+
+# print(True is True)
+# print('1' == 1)
+# print([] is [])
+# print(10 == 10)
+
+###### For Loop #####
+# for item in (1, 2, 3, 4, 5):
+#   for x in ['a', 'b', 'c']:
+#     print(1, x)
+
+##### Iterable #####
+#iterable - list, dictionary, tuple, set, string
+#iterable -> one by one check each item in the collection
+
+# user = {'name': 'Golem', 'age': 5006, 'can_swim': False}
+
+# for key, value in user.items():
+#   print(key, value)
+
+# for items in user.values():
+#   print(items)
+
+# for items in user.keys():
+#   print(items)
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+counter = 0
+
+for items in my_list:
+  counter = counter + items
+print(counter)

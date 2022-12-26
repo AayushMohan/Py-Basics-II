@@ -88,3 +88,7 @@
 # for items in my_list:
 #   counter = counter + items
 # print(counter)
+
+###### Range #####
+for number in range(0, 10):
+  print("email email list")

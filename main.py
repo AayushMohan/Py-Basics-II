@@ -90,5 +90,5 @@
 # print(counter)
 
 ###### Range #####
-for number in range(0, 10):
-  print("email email list")
+for _ in range(0, 10, 2):
+  print(_)

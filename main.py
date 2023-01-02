@@ -92,3 +92,6 @@
 ###### Range #####
 for _ in range(0, 10, 2):
   print(_)
+
+  print(range(100))
+# In for loop we can use (_) if we dont want to use the number variable in the given loop and we can also stepover a

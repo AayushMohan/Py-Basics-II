@@ -89,9 +89,17 @@
 #   counter = counter + items
 # print(counter)
 
-###### Range #####
-for _ in range(0, 10, 2):
-  print(_)
+# ###### Range #####
+# for _ in range(0, 10, 2):
+#   print(_)
 
-  print(range(100))
+#   print(range(100))
 # In for loop we can use (_) if we dont want to use the number variable in the given loop and we can also stepover a
+
+########## Enumerate ############
+#It's used to show the index of a number or a character
+
+# for i, char in enumerate(list(range(100))):
+#   print(i, char)
+#   if char == 50:
+#     print(f'index of 50 is ${char}')

@@ -103,3 +103,13 @@
 #   print(i, char)
 #   if char == 50:
 #     print(f'index of 50 is ${char}')
+
+######### While Loop ############
+
+# i = 0
+
+# while i < 50:
+#   print(i)
+#   i += 1
+# else:
+#   print("Done with all the work")

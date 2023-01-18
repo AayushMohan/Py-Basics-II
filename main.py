@@ -158,10 +158,15 @@
 
 
 ####### FUNCTIONS ########
-#parameters
-def say_hello(name, emoji):
-  print(f'Hello {name} {emoji}')
+# #default parameters
+# def say_hello(name='Don', emoji='💪🏻'):
+#   print(f'Hello {name} {emoji}')
 
 
-#arguments
-say_hello('Aayush', '🤴🏻')
+# #positional arguments
+# say_hello('Aayush', '🤴🏻')
+# say_hello('Sam', '🤴🏻')
+
+# #keyword agruments
+# say_hello(name='Tom', emoji='🔥')
+# say_hello()

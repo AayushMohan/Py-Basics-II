@@ -237,3 +237,24 @@
 #   return sum(args) + total
 
 # print(super_func(1,2,3,4,5, num1=5, num2=10))
+
+# ####### FUNCTIONS EXERCISE #########
+# def highest_even(li):
+#   evens = []
+#   for item in li:
+#     if item % 2 == 0:
+#       evens.append(item)
+#   return max(evens)
+
+# print(highest_even([10,2,3,4,8,11]))
+
+######## WALRUS OPERATOR := ##########
+# a = 'hellllooooooo'
+# if ((n:= len(a)) > 10):
+#   print(f'too long {n} elements')
+
+# while ((n := len(a)) > 1):
+#   print(n)
+#   a = a[:-1]
+# print(a)
+

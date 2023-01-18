@@ -182,14 +182,39 @@
 
 ####### TESLA Challenge ######
 
-def drive_car(age):
-  if(age < 18):
-    print('You are too young to drive the car!!. Powering Off.')
-  elif(age == 18):
-    print('Congrats!! For you first drive..')
+# def drive_car(age):
+#   if(age < 18):
+#     print('You are too young to drive the car!!. Powering Off.')
+#   elif(age == 18):
+#     print('Congrats!! For you first drive..')
 
-  elif(age > 18):
-    print('Welcome To Tesla!! Powering On..')
+#   elif(age > 18):
+#     print('Welcome To Tesla!! Powering On..')
 
-age = int(input('enter the age:'))
-drive_car(age)
+# age = int(input('enter the age:'))
+# drive_car(age)
+
+######## METHODS VS FUNCTIONS ########
+# list()
+# print()
+# max()
+# min()
+# input()
+# These are the examples of functions
+
+# Whereas 
+# def some_random_stuff():
+#   pass
+
+# some_random_stuff()
+# 'hello'.uppercase
+# these are the examples of functions
+
+######### DOCSTRINGS #########
+def test(a):
+  '''
+  Info: this function test and prints pram a
+  '''
+  print(a)
+
+print(test.__doc__)

@@ -270,15 +270,15 @@
 
 ####### SCOPE RULES #########
 
-a = 1
+# a = 1
 
-def parent():
-  def confusion():
-    return sum
-  return confusion()
+# def parent():
+#   def confusion():
+#     return sum
+#   return confusion()
 
-print(parent())
-print(a)
+# print(parent())
+# print(a)
     
 #1 - start with local
 #2 - Parent local?

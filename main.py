@@ -287,16 +287,15 @@
 
 # Non Local Keyword
 
-def outer():
-  x = "local"
-  def inner():
-    nonlocal x
-    x = "nonlocal"
-    print("inner:", x)
+# def outer():
+#   x = "local"
+#   def inner():
+#     nonlocal x
+#     x = "nonlocal"
+#     print("inner:", x)
 
-    inner()
-    print("outer:", x)
+#     inner()
+#     print("outer:", x)
 
-outer()
-    
-  
+# outer()
+# print(x)

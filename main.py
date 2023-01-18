@@ -284,3 +284,19 @@
 #2 - Parent local?
 #3 - Global
 #4 - built in python functions.
+
+# Non Local Keyword
+
+def outer():
+  x = 'local'
+  def inner():
+    nonlocal x
+    x = "nonlocal"
+    print("inner:", x)
+
+    inner()
+    print("outer:", x)
+
+outer()
+    
+  

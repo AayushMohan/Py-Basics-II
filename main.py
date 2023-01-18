@@ -210,11 +210,20 @@
 # 'hello'.uppercase
 # these are the examples of functions
 
-######### DOCSTRINGS #########
-def test(a):
-  '''
-  Info: this function test and prints pram a
-  '''
-  print(a)
+# ######### DOCSTRINGS #########
+# def test(a):
+#   '''
+#   Info: this function test and prints pram a
+#   '''
+#   print(a)
 
-print(test.__doc__)
+# print(test.__doc__)
+
+# #this is just a method to add comments inside a function
+
+# ######## CLEAN CODE ########
+# def is_even(num):
+#   return num % 2 == 0
+
+# print(is_even(51))
+  

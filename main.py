@@ -170,3 +170,12 @@
 # #keyword agruments
 # say_hello(name='Tom', emoji='🔥')
 # say_hello()
+
+# ####### RETURN #######
+# def sum(num1, num2):
+#   def another_function(n1,n2):
+#     return n1 + n2
+#   return another_function(num1, num2)
+
+# total = sum(10, 20)
+# print(total)

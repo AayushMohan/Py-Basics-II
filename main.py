@@ -288,7 +288,7 @@
 # Non Local Keyword
 
 def outer():
-  x = 'local'
+  x = "local"
   def inner():
     nonlocal x
     x = "nonlocal"

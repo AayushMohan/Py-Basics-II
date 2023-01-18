@@ -144,14 +144,24 @@
 #       print(empty, end='')
 #   print('')
 
-# Exercise: Check for duplicates in list
-some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+# # Exercise: Check for duplicates in list
+# some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 
-duplicates = []
+# duplicates = []
 
-for value in some_list:
-  if some_list.count(value) > 1:
-    if value not in duplicates:
-      duplicates.append(value)
+# for value in some_list:
+#   if some_list.count(value) > 1:
+#     if value not in duplicates:
+#       duplicates.append(value)
 
-print(duplicates)
+# print(duplicates)
+
+
+####### FUNCTIONS ########
+#parameters
+def say_hello(name, emoji):
+  print(f'Hello {name} {emoji}')
+
+
+#arguments
+say_hello('Aayush', '🤴🏻')

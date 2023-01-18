@@ -179,3 +179,17 @@
 
 # total = sum(10, 20)
 # print(total)
+
+####### TESLA Challenge ######
+
+def drive_car(age):
+  if(age < 18):
+    print('You are too young to drive the car!!. Powering Off.')
+  elif(age == 18):
+    print('Congrats!! For you first drive..')
+
+  elif(age > 18):
+    print('Welcome To Tesla!! Powering On..')
+
+age = int(input('enter the age:'))
+drive_car(age)
